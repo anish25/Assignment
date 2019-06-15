@@ -7,7 +7,7 @@ app.use(express.static('public'))
 app.use(express.static('views'))
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+  res.render('index', { page:'Home', menuId:'home' });
 });
 
 router.get('/Services', function(req, res, next) {
@@ -19,7 +19,7 @@ router.get('/Projects', function(req, res, next) {
 });
 
 router.get('/About', function(req, res, next) {
-  res.render('about', { title: 'About' });
+  res.render('about', { title: 'about' });
 });
 
 

@@ -1,13 +1,16 @@
-nav#mainNav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
-.container
-    a.navbar-brand.js-scroll-trigger(href='#page-top') Start Bootstrap
-    button.navbar-troggler(type='button', data-toggle='collapse',data-target='#navbarResponsive', aria-controls='navbarREsponsive', aria-expanded='false', aria-label='Toggle navigation')
-        span.navbar-toggle-icon
-    #navbarResponsive.collapse.navbar-collapse
-        ul.navbar-nav.ml-auto
-            li.nav-item 
-                a.nav-link.js-scroll-trigger(href='#about') About
+body#page-top
+    //- Navigation
+    nav#mainNav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
+      .container
+        a.navbar-brand.js-scroll-trigger(href='#page-top') Start Bootstrap
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
             li.nav-item
-                a.nav-link.js-scroll-trigger(href='#servies') Services
-            li.a.nav-link
-                a.nav-link.js-scroll-trigger(href='#contact') Contact
+              a.nav-link.js-scroll-trigger(href='#about') About
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#services') Services
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#contact') Contact
+    
